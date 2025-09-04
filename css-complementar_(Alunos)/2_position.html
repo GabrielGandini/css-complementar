@@ -12,6 +12,20 @@
         /* POSITION: STICKY (O Cabeçalho "Grudento") */
         /* Ocupa 100% da largura e se comporta como um header. */
         /* Ele rola com a página até seu topo atingir o topo da tela, então ele "gruda". */
+         .header-sticky {
+         width: 100vw;
+         background-color: #ffc107;
+         color: black;
+         padding: 15px;
+         text-align: center;   
+         font-size: 1.2em;
+         box-sizing: border-box;
+         position: sticky;
+         top: 0;
+         z-index: 9;
+         ;
+        }
+
 
 
 
@@ -32,21 +46,53 @@
 
         /* Continuar 2ª digitação (Aqui) */
 
-
+        .container-relative {
+            background-color: blueviolet;
+            width: 100%;
+            color: white;
+            height: 300px;
+            margin: 400px auto;
+            padding: 10px;
+            position: relative;
+        }
 
         /* POSITION: ABSOLUTE (O Ícone no Canto) */
         /* Posiciona-se em relação ao container-relative, seu pai posicionado. */
+        .item-absolusto {
+            background-color: #ff0707;
+            width: 300px;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+            position: absolute;
+            /*bottom: 10px;*/
+            /*right: 10px;*/
+
+            /*Centralizado*/
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
 
 
-
-        /* Continuar 3ª digitação (Aqui) */
+        
 
 
 
         /* POSITION: FIXED (O Botão "Sempre Visível") */
         /* Fica fixo na tela, ignorando a rolagem. Ideal para um chat ou "voltar ao topo". */
 
+        .botao-fixo {
+        background-color: greenyellow;
+        color: aliceblue;
+        padding: 15px;
+        border-radius: 50%;
+        position: fixed;
+        top: 80px;
+        right: 80px;
 
+        }
+       
 
         /* Continuar 4ª digitação (Aqui) */
 
